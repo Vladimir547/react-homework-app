@@ -1,12 +1,25 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav a + a{
+  margin-left: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

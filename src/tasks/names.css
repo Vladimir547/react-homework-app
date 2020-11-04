@@ -1,0 +1,6 @@
+.list__item {
+    display: flex;
+}
+.list__item h4 {
+    margin-left: 10px;
+}
